@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+/* 基本設置 */
+html,
+body {
+  margin: 0px;
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
+  background-color: #fcf9ee;
+}
+h1 {
+  font-size: 32px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  min-width: 300px;
+}
+
+span {
+  color: #ff9203;
+  font-weight: bold;
+}
+
+p {
+  text-align: justify;
+}
+
+/* 頭頂 */
+header {
+  background-color: #ffd06b;
+}
+
+var {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto 10px;
+  padding: 0px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.var-name {
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+}
+
+li {
+  display: inline-block;
+}
+
+#heart {
+  width: 20px;
+}
+
+#heart:hover {
+  cursor: pointer;
+}
+
+button.heart-click {
+  background: #ffd06b;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 主內容 */
+
+main {
+  max-width: 1000px;
+  margin: 50px auto 0;
+}
+
+/* 專業能力 */
+.skills {
+  display: flex;
+  justify-content: space-between;
+}
+.skill {
+  width: 30%;
+  border-top: 1px solid #999999;
+  padding-top: 2px;
+}
+.company,
+.duration {
+  color: #666666;
+  margin-right: 12px;
+  letter-spacing: 2px;
+}
+.fa-building,
+.fa-calendar {
+  margin-right: 6px;
+}
+
+hr {
+  border: 0px;
+  height: 1px;
+  margin: 20px 0px;
+  background: #999999;
+}
+
+/* 尾巴區 */
+footer {
+  margin-top: 50px;
+  text-align: center;
+  background-color: #666666;
+}
+
+.footer-text {
+  font-weight: normal;
+}
+
+section.bottom {
+  display: flex;
+  width: 1000px;
+  font-size: 25px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media {
+  text-decoration: none;
+  font-size: 30px;
+  margin-left: 10px;
+  color: #ffa1ff;
+}
+
+.social-media:hover {
+  color: white;
+}
+
+.footer-text {
+  margin-bottom: 2px;
+  margin-right: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.social-media-cel {
+  margin-left: 15px;
+  align-items: center;
+  text-decoration: none;
+}
+
+.my-phone {
+  font-size: 15px;
+  display: block;
+  color: white;
+  font-weight: normal;
+}
